@@ -1,0 +1,76 @@
+{
+  "contract_fingerprint": "c7ca5e5ebb4c092910ec72b371e188303358c5e34d2908c0a88f782a241162cf",
+  "sdk_targets_version": "1.1.0",
+  "targets": [
+    {
+      "identity": {
+        "coordinates": "jack_ai_platform_os_hub_api_public_subset@1.0.0",
+        "ecosystem": "CMake",
+        "entry": "omniwrap_client_t",
+        "import": "#include \"omniwrap_client.h\""
+      },
+      "operations": {
+        "failUsageQuota": {
+          "member": "omniwrap_fail_usage_quota",
+          "method": "POST",
+          "path": "/v1/kernel/usage/fail",
+          "resource": "kernel",
+          "signature": "int omniwrap_fail_usage_quota(omniwrap_client_t *client, omniwrap_response_t *out_response)"
+        },
+        "finalizeUsageQuota": {
+          "member": "omniwrap_finalize_usage_quota",
+          "method": "POST",
+          "path": "/v1/kernel/usage/finalize",
+          "resource": "kernel",
+          "signature": "int omniwrap_finalize_usage_quota(omniwrap_client_t *client, omniwrap_response_t *out_response)"
+        },
+        "getCurrentUser": {
+          "member": "omniwrap_get_current_user",
+          "method": "GET",
+          "path": "/user/me",
+          "resource": "user",
+          "signature": "int omniwrap_get_current_user(omniwrap_client_t *client, omniwrap_response_t *out_response)"
+        },
+        "getHealth": {
+          "member": "omniwrap_get_health",
+          "method": "GET",
+          "path": "/health",
+          "resource": "health",
+          "signature": "int omniwrap_get_health(omniwrap_client_t *client, omniwrap_response_t *out_response)"
+        },
+        "getSignupPolicy": {
+          "member": "omniwrap_get_signup_policy",
+          "method": "GET",
+          "path": "/user/auth/signup-policy",
+          "resource": "user",
+          "signature": "int omniwrap_get_signup_policy(omniwrap_client_t *client, omniwrap_response_t *out_response)"
+        },
+        "loginUser": {
+          "member": "omniwrap_login_user",
+          "method": "POST",
+          "path": "/user/auth/login",
+          "resource": "user",
+          "signature": "int omniwrap_login_user(omniwrap_client_t *client, omniwrap_response_t *out_response)"
+        },
+        "reserveUsageQuota": {
+          "member": "omniwrap_reserve_usage_quota",
+          "method": "POST",
+          "path": "/v1/kernel/usage/reserve",
+          "resource": "kernel",
+          "signature": "int omniwrap_reserve_usage_quota(omniwrap_client_t *client, omniwrap_response_t *out_response)"
+        },
+        "submitWaitlistRequest": {
+          "member": "omniwrap_submit_waitlist_request",
+          "method": "POST",
+          "path": "/user/auth/waitlist",
+          "resource": "user",
+          "signature": "int omniwrap_submit_waitlist_request(omniwrap_client_t *client, omniwrap_response_t *out_response)"
+        }
+      },
+      "package_directory": "../jack-ai-platform-os-hub-api-public-subset-c-sdk",
+      "package_manifest": "CMakeLists.txt",
+      "reference": "api.md",
+      "renderer": "c"
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "artifact_type": "c-sdk",
+  "package_manifest": "CMakeLists.txt",
+  "package_name": "jack_ai_platform_os_hub_api_public_subset",
+  "package_version": "1.0.0",
+  "runtime_floor": ">=3.16",
+  "source_files": [
+    {
+      "path": ".omniwrap-skill-manifest.json",
+      "sha256": "7b73d549078b96467b8c76b1bb986f46b2c13d9416273e85d4d9493ff19b3d65",
+      "size_bytes": 404
+    },
+    {
+      "path": "agent-session.json",
+      "sha256": "50a04369d39fd2d66637bda9d94fa08c6a18ed4c85b62320b79a9f47a3735063",
+      "size_bytes": 22842
+    },
+    {
+      "path": "AGENT_SESSION.md",
+      "sha256": "a6038d3e7cf9db6ba42df462cfab4705fdd7c2745c0328f3d86c22ba1e80391e",
+      "size_bytes": 713
+    },
+    {
+      "path": "api.md",
+      "sha256": "9523825c7992e6fe57b92b01056e00605919a2056d8466c41b9d78f0a1061b2a",
+      "size_bytes": 11079
+    },
+    {
+      "path": "CMakeLists.txt",
+      "sha256": "39c3d2e77b5c6625405d4ca75d2df6b0d186e15e341b2ff204824fb20693dcf6",
+      "size_bytes": 834
+    },
+    {
+      "path": "include/omniwrap_agent_session.h",
+      "sha256": "7680d9ea6906347dcb77d82b2dc8de43a500ee1fbb9048b51f6322314ffaaac4",
+      "size_bytes": 1071
+    },
+    {
+      "path": "include/omniwrap_client.h",
+      "sha256": "45ae59a32dde99975faca8cec4f76eaaddc49f718a7599248e1c1391917afd18",
+      "size_bytes": 4259
+    },
+    {
+      "path": "LICENSE",
+      "sha256": "fb11dfcf40507855f2fbe0fdcee036cfe549b3ef7e52ebeb09e0dd66d552a128",
+      "size_bytes": 282
+    },
+    {
+      "path": "README.md",
+      "sha256": "bba1fe9454e68dbb5ba5b455cc8bd8155ac107ef6c009f9b766a80644e61c9a9",
+      "size_bytes": 838
+    },
+    {
+      "path": "SKILL.md",
+      "sha256": "4f1c584dbf49e60089b814d2638f4e6a1b2395512d8b26c50bd8a8deec09f355",
+      "size_bytes": 6148
+    },
+    {
+      "path": "src/client.c",
+      "sha256": "238a599863cc2ec2b6d46483e55900b779be392b5c0d1b4acd642de8188f1018",
+      "size_bytes": 25194
+    }
+  ],
+  "source_version": "1.0.0",
+  "target": "c"
+}
